@@ -1,0 +1,78 @@
+.aromatizadores-section {
+  padding: 4rem 2rem;
+  background: #ECEBE6;
+  min-height: calc(100vh - 80px);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color:  #46192D;
+}
+
+.section-subtitle {
+  text-align: center;
+  color:  #46192D;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+
+.category-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.filter-btn {
+  padding: 0.7rem 1.5rem;
+  border: 2px solid #46192D;
+  background: #ECEBE6;
+  color: #46192D;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.filter-btn:hover {
+  background: #46192D;
+  color: #ECEBE6;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(65, 37, 71, 0.3);
+}
+
+.filter-btn.active {
+  background: #46192D;
+  color: #ECEBE6;
+  border-color: #46192D;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .aromatizadores-section {
+    padding: 2rem 1rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+}
