@@ -36,7 +36,7 @@ function Carrito({ isOpen = true, onClose = () => {} }) {
       if (typeof item.precio === 'number') {
         const subtotalItem = item.precio * item.cantidad
         mensaje += `- ${tipoTexto}: ${item.nombre}\n`
-        mensaje += `- Cantidad: ${item.cantidad}\n\n`
+        mensaje += `- Cantidad: ${item.cantidad}\n`
         const pct = getItemDiscountPercent(item.cantidad)
         if (pct > 0) {
           discountDetails.push(`• ${item.nombre}: ${pct}% (${item.cantidad} unidades)`)
@@ -62,7 +62,7 @@ function Carrito({ isOpen = true, onClose = () => {} }) {
       mensaje += `Descuento (${discountPercent}%): -$${formatPrice(discount)}\n`
     }
     
-    mensaje += `Total: $${formatPrice(total)}`
+    mensaje += `\nTotal: $${formatPrice(total)}`
 
     if (discountDetails.length > 0) {
       mensaje += `\n\nDescuentos aplicados:\n${discountDetails.join('\n')}`

@@ -2,7 +2,7 @@
   background: #46192D;
   color: #46192D;
   padding: 1.5rem 0;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 10px rgba(235, 230, 230, 0.08);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -161,7 +161,7 @@
 .nav-tab.active {
   background:  #46192D;
   color: #ffffff;
-  border-color:  #dfd1d7;
+  border-color:  #ece4e8;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -173,7 +173,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 2px solid rgba(65, 37, 71, 0.7);
+  border: 2px solid rgba(94, 69, 99, 0.7);
   background: transparent;
   cursor: pointer;
   padding: 0;
@@ -184,7 +184,7 @@
   display: block;
   width: 18px;
   height: 2px;
-  background: #412547;
+  background: #e2dae4;
   border-radius: 999px;
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
