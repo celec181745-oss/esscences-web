@@ -1,5 +1,5 @@
 .header {
-  background: #ECEBE6;
+  background: #46192D;
   color: #46192D;
   padding: 1.5rem 0;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
@@ -40,7 +40,7 @@
   border-radius: 20px;
   border: 1px solid rgba(65, 37, 71, 0.35);
   background: transparent;
-  color: #46192D;
+  color: #ECEBE6;
   cursor: pointer;
   font-weight: 700;
   transition: all 0.2s ease;
@@ -91,14 +91,14 @@
   border-radius: 999px;
   font-size: 0.7rem;
   font-weight: 700;
-  box-shadow: 0 1px 6px rgba(255, 140, 0, 0.35);
+  box-shadow: 0 1px 6px rgba(183, 155, 219, 0.35);
 }
 
 .logo {
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: 2px;
-  color:  #46192D;
+  color:  #ECEBE6;
   text-shadow: none;
 }
 
@@ -144,7 +144,7 @@
 .nav-tab {
   background: transparent;
   border: 2px solid rgba(65, 37, 71, 0.3);
-  color: #46192D;
+  color: #ECEBE6;
   padding: 0.7rem 1.5rem;
   border-radius: 25px;
   font-weight: 600;
@@ -161,7 +161,7 @@
 .nav-tab.active {
   background:  #46192D;
   color: #ffffff;
-  border-color:  #46192D;
+  border-color:  #dfd1d7;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 

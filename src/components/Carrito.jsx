@@ -22,7 +22,7 @@ function Carrito({ isOpen = true, onClose = () => {} }) {
   const handleComprar = () => {
     if (cartItems.length === 0) return
 
-    let mensaje = '¡Hola! Me interesa realizar la siguiente compra:\n'
+    let mensaje = '¡Hola! Me interesa realizar la siguiente compra:\n\n'
     
     const discountDetails = []
 
@@ -37,7 +37,6 @@ function Carrito({ isOpen = true, onClose = () => {} }) {
         const subtotalItem = item.precio * item.cantidad
         mensaje += `- ${tipoTexto}: ${item.nombre}\n`
         mensaje += `- Cantidad: ${item.cantidad}\n\n`
-        mensaje += `Precio Unitario: $${formatPrice(item.precio)}\n`
         const pct = getItemDiscountPercent(item.cantidad)
         if (pct > 0) {
           discountDetails.push(`• ${item.nombre}: ${pct}% (${item.cantidad} unidades)`)
@@ -138,10 +137,7 @@ function Carrito({ isOpen = true, onClose = () => {} }) {
 
         <div className="carrito-footer">
           <div className="carrito-totals">
-            <div className="carrito-subtotal">
-              <span className="total-label">Subtotal:</span>
-              <span className="total-amount">${getTotalPrice().toFixed(2)}</span>
-            </div>
+
             {getDiscountPercentage() > 0 && (
               <div className="carrito-discount">
                 <span className="discount-label">Descuento ({getDiscountPercentage()}%):</span>

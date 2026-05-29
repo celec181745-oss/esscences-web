@@ -118,7 +118,7 @@
   width: 90%;
   max-height: 80vh;
   overflow-y: auto;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 40px rgba(143, 63, 63, 0.3);
   position: relative;
   animation: slideUp 0.4s ease-out;
   border: 2px solid #46192D;
