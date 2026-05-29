@@ -38,7 +38,7 @@
   gap: 0.35rem;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
-  border: 1px solid rgba(65, 37, 71, 0.35);
+  border: 1px solid rgba(229, 221, 231, 0.35);
   background: transparent;
   color: #ECEBE6;
   cursor: pointer;
@@ -59,8 +59,8 @@
 
 .cart-button:hover,
 .cart-button.open {
-  background: rgba(202, 176, 224, 0.08);
-  border-color: rgba(159, 123, 173, 0.55);
+  background: rgba(224, 176, 176, 0.08);
+  border-color: rgba(172, 153, 170, 0.55);
 }
 
 .cart-icon {
@@ -208,12 +208,12 @@
 .nav-tab-mobile {
   background: transparent;
   border: none;
-  color:  #46192D;
+  color:  #ECEBE6;
   padding: 0.7rem 0;
   text-align: left;
   font-size: 0.95rem;
   font-weight: 500;
-  border-bottom: 1px solid rgba(65, 37, 71, 0.15);
+  border-bottom: 1px solid rgba(217, 205, 219, 0.15);
 }
 
 .nav-tab-mobile:last-child {
@@ -221,7 +221,7 @@
 }
 
 .nav-tab-mobile.active {
-  color:  #46192D;
+  color:  #ECEBE6;
   font-weight: 600;
 }
 
