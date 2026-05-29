@@ -59,8 +59,8 @@
 
 .cart-button:hover,
 .cart-button.open {
-  background: rgba(123, 44, 191, 0.08);
-  border-color: rgba(123, 44, 191, 0.55);
+  background: rgba(202, 176, 224, 0.08);
+  border-color: rgba(159, 123, 173, 0.55);
 }
 
 .cart-icon {
