@@ -37,8 +37,7 @@ function Carrito({ isOpen = true, onClose = () => {} }) {
         const subtotalItem = item.precio * item.cantidad
         mensaje += `- ${tipoTexto}: ${item.nombre}\n`
         mensaje += `- Cantidad: ${item.cantidad}\n\n`
-        mensaje += `Precio unitario: $${formatPrice(item.precio)}\n`
-        mensaje += `Subtotal: $${formatPrice(subtotalItem)}\n`
+        mensaje += `Precio Unitario: $${formatPrice(item.precio)}\n`
         const pct = getItemDiscountPercent(item.cantidad)
         if (pct > 0) {
           discountDetails.push(`• ${item.nombre}: ${pct}% (${item.cantidad} unidades)`)

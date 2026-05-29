@@ -44,10 +44,9 @@ function ProductCard({ producto, tipo }) {
   const handleAddToCart = () => {
     // Si es souvenir, abrir WhatsApp directamente para pedir presupuesto
     if (tipo === 'souvenir') {
-      const mensaje = `¡Hola! Me interesa solicitar un presupuesto y personalización para:\n\n` +
+      const mensaje = `¡Hola! Me interesa solicitar un presupuesto para:\n\n` +
         `• ${producto.nombre}\n` +
-        `• Cantidad: ${cantidad}\n` +
-        `• Descripción: ${producto.descripcion}\n\n` +
+        `• Cantidad: ${cantidad}\n\n` +
         `Me gustaría consultar sobre opciones de personalización, colores y aromas disponibles.\n\n` +
         `¡Gracias!`
       
