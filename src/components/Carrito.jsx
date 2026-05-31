@@ -47,7 +47,7 @@ function Carrito({ isOpen = true, onClose = () => {} }) {
         mensaje += `${item.precio}\n\n`
       }
       if (idx < cartItems.length - 1) {
-        mensaje += '------------------\n'
+    
       }
     })
 

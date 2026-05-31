@@ -44,11 +44,11 @@ function ProductCard({ producto, tipo }) {
   const handleAddToCart = () => {
     // Si es souvenir, abrir WhatsApp directamente para pedir presupuesto
     if (tipo === 'souvenir') {
-      const mensaje = `¡Hola! Me interesa solicitar un presupuesto para:\n\n` +
+      const mensaje = `¡Hola! Me interesa solicitar un presupuesto para:\n` +
         `• ${producto.nombre}\n` +
         `• Cantidad: ${cantidad}\n\n` +
-        `Me gustaría consultar sobre opciones de personalización, colores y aromas disponibles.\n\n` +
-        `¡Gracias!`
+        `Quisiera saber sobre opciones de personalización, colores y aromas disponibles.` +
+        ` ¡Gracias!`
       
       const numeroWhatsApp = '543496499924'
       const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`
