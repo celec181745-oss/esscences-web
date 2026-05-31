@@ -22,7 +22,7 @@ function Carrito({ isOpen = true, onClose = () => {} }) {
   const handleComprar = () => {
     if (cartItems.length === 0) return
 
-    let mensaje = '¡Hola! Me interesa realizar la siguiente compra:\n\n'
+    let mensaje = '¡Hola! Me interesa realizar la siguiente compra:\n'
     
     const discountDetails = []
 
