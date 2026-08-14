@@ -74,7 +74,7 @@ export const velas = [
     id: 6,
     nombre: "Bear & Bouquet",
     descripcion: "Vela con diseño de oso sosteniendo un ramo. Perfecta para ocasiones especiales.",
-    precio: 2499,
+    precio: 2999,
     imagen: BearBouquet2
   },
   {
@@ -88,7 +88,7 @@ export const velas = [
     id: 9,
     nombre: "Jirafa",
     descripcion: "Vela con diseño de jirafa. Ideal para decorar habitaciones infantiles o reglar.",
-    precio: 1499,
+    precio: 1999,
     imagen: Jirafa
   },
   {
@@ -102,7 +102,7 @@ export const velas = [
     id: 11,
     nombre: "Gnomo",
     descripcion: "Vela con diseño de gnomo. Ideal para decorar y crear un ambiente mágico y acogedor.",
-    precio: 3999,
+    precio: 4499,
     imagen: Gnomo
   },
   
@@ -118,35 +118,35 @@ export const velas = [
     id: 13,
     nombre: "Peonias",
     descripcion: "Elegante vela con diseño de peonias. Añade sofisticación y elegancia a tu decoración.",
-    precio: 2499,
+    precio: 2999,
     imagen: Peonias
   },
   {
     id: 14,
     nombre: "Mini Peonias",
     descripcion: "Versión pequeña de peonia. Ideal para decorar tu espacio.",
-    precio: 1499,
+    precio: 1999,
     imagen: MiniPeonias
   },
   {
     id: 15,
     nombre: "Ramo de Margaritas",
     descripcion: "Nueve Margaritas en ramo. Perfecta para realar a tu persona especial.",
-    precio: 14999,
+    precio: 19999,
     imagen: RamoMargaritas
   },
   {
     id: 16,
     nombre: "Ramo de Peonias",
     descripcion: "Cinco Peonias en ramo. Ideal para ocasiones especiales y regalos.",
-    precio: 14999,
+    precio: 19999,
     imagen: RamoPeonias
   },
   {
     id: 17,
     nombre: "Mini Ramo",
     descripcion: "Una Margarita en ramo. Perfecta para dar un detalle.",
-    precio: 3499,
+    precio: 4499,
     imagen: MiniRamo
   },
   {
@@ -181,7 +181,7 @@ export const velas = [
     id: 22,
     nombre: "Rose Sphere",
     descripcion: "Vela en forma de esfera de rosas. Perfecta para crear un ambiente romántico.",
-    precio: 4499,
+    precio: 4999,
     imagen: RoseSphere
   },
   
@@ -190,14 +190,14 @@ export const velas = [
     id: 23,
     nombre: "Globe",
     descripcion: "Vela en forma de cubo. Diseño moderno y minimalista para espacios contemporáneos.",
-    precio: 3999,
+    precio: 4499,
     imagen: Globe
   },
   {
     id: 24,
     nombre: "Globe Hearts",
     descripcion: "Vela en forma de cubo con diseño de corazones. Diseño minimalista.",
-    precio: 3999,
+    precio: 4499,
     imagen: GlobeHearts
   },
   {
@@ -229,21 +229,21 @@ export const velas = [
     id: 28,
     nombre: "Arcoíris",
     descripcion: "Vela en forma de arcoíris. Perfecta para regalo o decoración infantil.",
-    precio: 1499,
+    precio: 1999,
     imagen: Arcoíris
   },
   {
     id: 29,
     nombre: "Café",
     descripcion: "Vela aromática en vaso de vidrio con tapa. Ideal para los amantes del café.",
-    precio: 9999,
+    precio: 14999,
     imagen: Cafe
   },
   {
     id: 30,
     nombre: "Cerveza",
     descripcion: "Vela aromática con diseño de cerveza. Ideal para regalar.",
-    precio: 14999,
+    precio: 19999,
     imagen: Cerveza
   },
   {
@@ -257,7 +257,7 @@ export const velas = [
     id: 32,
     nombre: "Familia",
     descripcion: "Vela con diseño familiar. Ideal para un hogar, eventos o reglar.",
-    precio: 3499,
+    precio: 3999,
     imagen: Familia
   },
   {
@@ -271,14 +271,14 @@ export const velas = [
     id: 34,
     nombre: "Laberinto",
     descripcion: "Vela en forma de laberinto. Diseño moderno para decorar tu espacio.",
-    precio: 2999,
+    precio: 3499,
     imagen: Maze
   },
   {
     id: 35,
     nombre: "Moon",
     descripcion: "Vela en forma de luna. Perfecta para crear un ambiente mágico o regalar.",
-    precio: 2999,
+    precio: 3499,
     imagen: Moon
   },
   {
@@ -292,7 +292,7 @@ export const velas = [
     id: 37,
     nombre: "Column",
     descripcion: "Vela en forma de columna romana. Añade elegancia clásica a tu decoración.",
-    precio: 1499,
+    precio: 1999,
     imagen: RomanColumn
   },
   {
@@ -317,14 +317,14 @@ export const velas = [
     id: 40,
     nombre: "Velas Noche Basic",
     descripcion: "Set de 6 velas aromáticas, perfectas para ocasiones especiales o un ambiente acogedor en tu hogar.",
-    precio: 3499,
+    precio: 4499,
     imagen: VelasNocheBasic
   },
   {
     id: 41,
     nombre: "Velas Noche Specials",
     descripcion: "Set de 6 velas surtidas o personalizadas aromáticas. Diseños únicos para ocasiones especiales.",
-    precio: 3999,
+    precio: 4999,
     imagen: VelasNocheSpecials
   },
   
@@ -333,7 +333,7 @@ export const velas = [
     id: 42,
     nombre: "Velón Basic",
     descripcion: "Velón básico. Duración prolongada, perfecto para aromatizar espacios grandes.",
-    precio: 2499,
+    precio: 2999,
     imagen: VelonBasic
   },
   {
@@ -347,21 +347,21 @@ export const velas = [
     id: 44,
     nombre: "Velón Specials",
     descripcion: "Velón especial, contiene diversas hierbas. Diseño único.",
-    precio: 3999,
+    precio: 3499,
     imagen: VelonSpecials
   },
   {
     id: 45,
     nombre: "Velón Turned",
     descripcion: "Velón con diseño girado. Estilo moderno.",
-    precio: 4499,
+    precio: 4999,
     imagen: VelonTurned
   },
   {
     id: 46,
     nombre: "U",
     descripcion: "Vela simple y estética para decorar un ambiente.",
-    precio: 2999,
+    precio: 3499,
     imagen: VelaU
   }
 ];
