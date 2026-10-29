@@ -35,7 +35,7 @@ function Contacto() {
 
         <div className="contacto-info">
           <p className="contacto-text">
-            Estamos aquí para ayudarte. Contáctanos para consultas, pedidos personalizados o cualquier pregunta que tengas.
+            Estamos aquí para ayudarte. Contáctanos para consultas, pedidos personalizados o cualquier duda que tengas.
           </p>
         </div>
       </div>

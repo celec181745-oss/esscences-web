@@ -19,7 +19,7 @@ function Inicio() {
         <div className="inicio-content">
           <div className="inicio-welcome">
             <h2 className="inicio-title">Bienvenido</h2>
-            <p className="inicio-subtitle">Velas aromáticas y de decoración, difusores y piezas de yeso. Diseñadas pera decorar y perfumar tus espacios</p>
+            <p className="inicio-subtitle">En Escences nos dedicamos a crear productos aromáticos, de decoración y para obsequiar. </p>
             <button 
               className="btn-conocer-mas"
               onClick={() => setShowModal(true)}
@@ -43,12 +43,10 @@ function Inicio() {
             <div className="modal-description">
               
               <p>
-                 En <strong>Escences</strong> nos dedicamos a crear productos aromáticos, de decoración y para obsequiar. Los personalizamos para que puedas elegir el color y aroma de tu preferencia.
-                ¡Transforma tu espacio en un ambiente único con nuestros productos y empeza a regalar sensaciones! Cada producto es elaborado cuidadosamente para brindarte lo mejor.
+                 Velas aromáticas y decorativas, souvenirs, aromatizadores y piezas de yeso. Los personalizamos para que puedas elegir todo a tu preferencia.</p> 
+                <p>Cada producto es elaborado cuidadosamente para brindarte lo mejor. ¡Transforma tu espacio en un ambiente único con nuestros productos y empeza a regalar sensaciones!
               </p>
               <p>
-                Creemos que los aromas y colores tienen el poder de influir en nuestro estado de ánimo y bienestar, por eso realizamos productos personalizados,
-                para que puedas elegir el color y aroma de tu preferencia.
               </p>
             </div>
           </div>

@@ -67,35 +67,35 @@ export const velas = [
     id: 4,
     nombre: "Bear",
     descripcion: "Adorable vela con diseño de oso. Perfecto para regalar, decorar tu fiesta o una habitación infantil.",
-    precio: 1999,
+    precio: 2499,
     imagen: Bear
   },
   {
     id: 6,
     nombre: "Bear & Bouquet",
     descripcion: "Vela con diseño de oso sosteniendo un ramo. Perfecta para ocasiones especiales.",
-    precio: 2999,
+    precio: 3499,
     imagen: BearBouquet2
   },
   {
     id: 8,
     nombre: "Butterfly",
     descripcion: "Vela con diseño de mariposa. Añade un toque delicado y natural en tu espacio.",
-    precio: 999,
+    precio: 1499,
     imagen: Butterfly2
   },
   {
     id: 9,
     nombre: "Jirafa",
     descripcion: "Vela con diseño de jirafa. Ideal para decorar habitaciones infantiles o reglar.",
-    precio: 1999,
+    precio: 2499,
     imagen: Jirafa
   },
   {
     id: 10,
     nombre: "Lion",
     descripcion: "Vela con diseño de león. Perfecta para regalar o decorar una habitación infantil.",
-    precio: 1499,
+    precio: 1999,
     imagen: Lion
   },
   {
@@ -111,7 +111,7 @@ export const velas = [
     id: 12,
     nombre: "Margarita",
     descripcion: "Delicada vela con diseño de margarita. Perfecta para espacios frescos y naturales.",
-    precio: 1499,
+    precio: 1999,
     imagen: Margarita
   },
   {
@@ -132,14 +132,14 @@ export const velas = [
     id: 15,
     nombre: "Ramo de Margaritas",
     descripcion: "Nueve Margaritas en ramo. Perfecta para realar a tu persona especial.",
-    precio: 19999,
+    precio: 23999,
     imagen: RamoMargaritas
   },
   {
     id: 16,
     nombre: "Ramo de Peonias",
     descripcion: "Cinco Peonias en ramo. Ideal para ocasiones especiales y regalos.",
-    precio: 19999,
+    precio: 23999,
     imagen: RamoPeonias
   },
   {
@@ -153,21 +153,21 @@ export const velas = [
     id: 18,
     nombre: "Cuenco & Margarita",
     descripcion: "Cuenco de yeso más refil y margarita. Perfecta para decorar",
-    precio: 4499,
+    precio: 5499,
     imagen: CuencoMargarita
   },
   {
     id: 19,
     nombre: "Cuenco & Mariposa",
     descripcion: "Cuenco de yeso más refil y mariposa. Perfecta para decorar.",
-    precio: 4499,
+    precio: 5499,
     imagen: CuencoMariposa
   },
   {
     id: 20,
     nombre: "Cuenco & Mini Margaritas",
     descripcion: "Cuenco de yeso más refil y mini margaritas. Perfecta para decorar.",
-    precio: 4499,
+    precio: 5499,
     imagen: CuencoYMargarita
   },
   {
@@ -181,7 +181,7 @@ export const velas = [
     id: 22,
     nombre: "Rose Sphere",
     descripcion: "Vela en forma de esfera de rosas. Perfecta para crear un ambiente romántico.",
-    precio: 4999,
+    precio: 5999,
     imagen: RoseSphere
   },
   
@@ -190,21 +190,21 @@ export const velas = [
     id: 23,
     nombre: "Globe",
     descripcion: "Vela en forma de cubo. Diseño moderno y minimalista para espacios contemporáneos.",
-    precio: 4499,
+    precio: 5499,
     imagen: Globe
   },
   {
     id: 24,
     nombre: "Globe Hearts",
     descripcion: "Vela en forma de cubo con diseño de corazones. Diseño minimalista.",
-    precio: 4499,
+    precio: 5499,
     imagen: GlobeHearts
   },
   {
     id: 25,
     nombre: "Mini Globe",
     descripcion: "Pequeña vela en forma de cubo, versión pequeña de Globe. Perfecta para decorar espacios pequeños.",
-    precio: 1999,
+    precio: 2499,
     imagen: MiniGlobe
   },
   
@@ -213,7 +213,7 @@ export const velas = [
     id: 26,
     nombre: "Cuenco & Refil",
     descripcion: "Vela aromática en cuenco. Diseño clásico y funcional, perfecta para cualquier espacio.",
-    precio: 3999,
+    precio: 4499,
     imagen: Cuenco
   },
   
@@ -250,14 +250,14 @@ export const velas = [
     id: 31,
     nombre: "Cloud",
     descripcion: "Mini vela en forma de nube. Perfecta para regalo o decoración infantil.",
-    precio: 999,
+    precio: 1499,
     imagen: Cloud
   },
   {
     id: 32,
     nombre: "Familia",
     descripcion: "Vela con diseño familiar. Ideal para un hogar, eventos o reglar.",
-    precio: 3999,
+    precio: 4499,
     imagen: Familia
   },
   {
@@ -271,21 +271,21 @@ export const velas = [
     id: 34,
     nombre: "Laberinto",
     descripcion: "Vela en forma de laberinto. Diseño moderno para decorar tu espacio.",
-    precio: 3499,
+    precio: 3999,
     imagen: Maze
   },
   {
     id: 35,
     nombre: "Moon",
     descripcion: "Vela en forma de luna. Perfecta para crear un ambiente mágico o regalar.",
-    precio: 3499,
+    precio: 3999,
     imagen: Moon
   },
   {
     id: 36,
     nombre: "Árbol",
     descripcion: "Vela en forma de pino. Ideal para decorar tu espacio.",
-    precio: 2499,
+    precio: 2999,
     imagen: Pino
   },
   {
@@ -299,7 +299,7 @@ export const velas = [
     id: 38,
     nombre: "Row Hearts",
     descripcion: "Columna de vela en forma de corazones. Perfecta para ocasiones románticas.",
-    precio: 1499,
+    precio: 1999,
     imagen: RowHearts
   },
   
@@ -354,7 +354,7 @@ export const velas = [
     id: 45,
     nombre: "Velón Turned",
     descripcion: "Velón con diseño girado. Estilo moderno.",
-    precio: 4999,
+    precio: 5499,
     imagen: VelonTurned
   },
   {

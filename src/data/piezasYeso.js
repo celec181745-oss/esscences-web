@@ -22,7 +22,7 @@ export const piezasYeso = [
     id: 2,
     nombre: "Cuenco & Tapa",
     descripcion: "Hermoso cuenco de yeso con tapa. Ideal para almacenar o decorar. Diseño clásico y funcional.",
-    precio: 4499,
+    precio: 4999,
     imagen: CuencoTapa
   },
   {
@@ -36,7 +36,7 @@ export const piezasYeso = [
     id: 4,
     nombre: "Florero",
     descripcion: "Elegante florero de yeso para flores secas o artificiales. Añade un toque sofisticado a tu decoración.",
-    precio: 4499,
+    precio: 5499,
     imagen: Florero
   },
   {
@@ -78,14 +78,14 @@ export const piezasYeso = [
     id: 10,
     nombre: "Tray Cloud",
     descripcion: "Bandeja de yeso con diseño de nube. Original y decorativa, ideal para espacios modernos.",
-    precio: 4499,
+    precio: 4999,
     imagen: TrayCloud
   },
   {
     id: 11,
     nombre: "Tray Globe",
     descripcion: "Bandeja de yeso decorativa, elegante y funcional.",
-    precio: 3999,
+    precio: 4499,
     imagen: TrayGlobe2
   }
 ];
